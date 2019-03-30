@@ -16,7 +16,7 @@ def add_supply_to_memorial_day(holiday_hash, supply)
 
 end
 
-def add_new_holiday_with_ ["Lights", "Wreath"],
+def add_new_holiday_with ["Lights", "Wreath"],
      :new_years => ["Party Hats"]
    },
    :summer => {

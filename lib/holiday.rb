@@ -7,7 +7,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
    # :christmas =>ond argument, which is a supply, to BOTH the
   # Christmas AND the New Year's arrays
 holiday_hash[:winter].each 
-{|k, v| holiday_hash[:winter][k] << supply }
+|k,v| holiday_hash[:winter][k] << supply 
 end
 
 
